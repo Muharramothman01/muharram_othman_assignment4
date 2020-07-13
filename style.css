@@ -1,0 +1,153 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav
+{
+    width:100%;
+    height: 65px;
+    background-image: linear-gradient(to right,rgba(167, 35, 11, 0.349),rgba(192, 84, 11, 0.726));
+    position: fixed;
+    z-index: 3;
+    color:white;
+}
+
+ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li
+{
+    padding:0px 5px;
+    transition:all 0.5s ease;
+    cursor: pointer;
+}
+
+ul li ,.row .h4
+{
+    line-height: 60px;
+}
+
+li:hover
+{
+    color: gray;
+}
+
+/*end of the nav*/
+
+header
+{
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(to right,rgba(190, 27, 5, 0.623),rgba(207, 80, 6, 0.699));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container-md
+{
+    width:720px;
+    text-align: center;
+    height: auto;
+}
+
+header .container-md .title ,header .container-md .button
+{
+    padding: 10px 0px;
+}
+
+header .container-md .title h1
+{
+    font-size:80px;
+    color:white;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+header .container-md .title h2
+{
+    font-size:50px;
+    color:white;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+
+header .container-md .button button
+{
+    border-radius:40px;
+    padding:15px 40px;
+    border: none;
+    background-color: rgba(238, 9, 121, 1);
+    outline: none;
+}
+/*end of header*/
+
+.product
+{
+    width: 100%;
+    height: auto;
+}
+
+.section1,.section2,.section3
+{
+    height: auto;
+}
+
+
+.section1 .row .col-md img,.section2 .row .col-md img,.section3 .row .col-md img
+{
+    width: 70%;
+    height:30%;
+    border-radius: 50%;
+}
+
+.section1 .row .col-md h1 ,.section1 .row .col-md p
+{
+    max-width:80%;
+}
+
+.section1 .row,.section2 .row ,.section3 .row
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 0px;
+}
+
+.section2 .row .col-md h1 ,.section2 .row .col-md p
+{
+    max-width:80%;
+}
+
+.section3 .row .col-md h1 ,.section3 .row .col-md p
+{
+    max-width:80%;
+}
+
+/*end of footer*/
+
+.footer
+{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer p
+{
+    color: white;
+}
+
